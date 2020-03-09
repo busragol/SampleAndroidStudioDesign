@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".secondpage">
+
+    <TextView
+        android:id="@+id/activity_secondpage"
+        android:layout_width="607dp"
+        android:layout_height="match_parent"
+        android:background="@color/activity_secondpage"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="176dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/sindirellalogo"
+        tools:ignore="MissingConstraints"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="99.4dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:textSize="14dp"
+        android:layout_width="175dp"
+        android:layout_height="18dp"
+        android:text="@string/how"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="343dp"
+        android:layout_height="370dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="55dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/image" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="49dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="90dp"
+            android:text="@string/select"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="303dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="150dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:text="@string/brief"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="460dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/skip"
+        android:textSize="17sp"
+        android:backgroundTint="@color/activity_splash"/>
+
+
+</RelativeLayout>

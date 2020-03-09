@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="25dp"
+    android:orientation="vertical"
+    android:background="@color/siyahkreasyonu"
+    >
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/shadow">
+
+
+
+    <TextView
+        android:layout_width="139dp"
+        android:layout_height="41dp"
+        android:text="@string/girişyap"
+        android:textSize="34sp"
+        android:lineHeight="41sp"
+        android:textColor="@color/siyahkreasyonu"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="222dp">
+    </TextView>
+    <TextView
+        android:layout_width="145dp"
+        android:layout_height="46dp"
+        android:text="@string/merhaba"
+        android:textSize="36sp"
+        android:lineHeight="46sp"
+        android:textColor="@color/siyahkreasyonu"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="218dp"
+        android:layout_marginTop="5dp">
+    </TextView>
+    <Button
+        android:layout_width="343dp"
+        android:layout_height="50dp"
+        android:text="@string/girişyapın"
+        android:textColor="@color/activity_secondpage"
+        android:background="@color/activity_splash"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="5dp">
+
+    </Button>
+        <TextView
+            android:layout_width="145dp"
+            android:layout_height="46dp"
+            android:text="@string/üyeolun"
+            android:textSize="36sp"
+            android:lineHeight="46sp"
+            android:textColor="@color/siyahkreasyonu"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="230dp"
+            android:layout_marginTop="5dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="18dp"
+            android:text="@string/eposta"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="193dp"
+            android:layout_marginTop="5dp"/>
+
+        <EditText
+            android:layout_width="343dp"
+            android:layout_height="44dp"
+            android:background="@drawable/shadow2"
+            android:ems="10"
+            android:paddingLeft="16dp"
+            android:paddingRight="180dp"
+            android:paddingBottom="11dp"
+            android:paddingTop="11dp"
+            android:hint="@string/eposta"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
+
+        <TextView
+            android:layout_width="183dp"
+            android:layout_height="18dp"
+            android:text="@string/şifreoluştur"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="176dp"
+            android:layout_marginTop="5dp">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="343dp"
+            android:layout_height="44dp"
+            android:background="@drawable/shadow2"
+            android:ems="10"
+            android:paddingLeft="18dp"
+            android:paddingRight="250dp"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp"
+            android:hint="@string/şifre"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:password="true">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="183dp"
+            android:layout_height="18dp"
+            android:text="@string/doğumtarihi"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="176dp"
+            android:layout_marginTop="5dp">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="343dp"
+            android:layout_height="44dp"
+            android:background="@drawable/shadow2"
+            android:ems="10"
+            android:paddingLeft="18dp"
+            android:paddingRight="207dp"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp"
+            android:hint="@string/date"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            >
+
+        </EditText>
+        <TextView
+            android:layout_width="343dp"
+            android:layout_height="40dp"
+            android:text="@string/kullanımsözleşmesi"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="@color/siyahkreasyonu">
+
+        </TextView>
+        <Button
+            android:layout_width="343dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shadow3"
+            android:text="@string/devamet"
+            android:textColor="@color/activity_secondpage"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp">
+
+        </Button>
+        <TextView
+            android:layout_width="44dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/yada"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="10sp">
+
+        </TextView>
+        <Button
+            android:layout_width="343dp"
+            android:layout_height="50dp"
+            android:text="@string/google"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/siyahkreasyonu">
+
+        </Button>
+
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

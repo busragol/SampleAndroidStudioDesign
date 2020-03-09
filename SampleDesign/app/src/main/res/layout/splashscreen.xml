@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_splash">
+    <ImageView
+        android:layout_width="235dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/sindirellalogowhite"
+        android:layout_marginLeft="69.6dp"
+        android:layout_marginRight="70.4dp"
+        android:layout_gravity="center"
+        >
+
+    </ImageView>
+
+
+</LinearLayout>

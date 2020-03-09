@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F5F5F5</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="activity_splash">#CC4E22</color>
+    <color name="activity_secondpage">#F5F5F5</color>
+    <color name="forthpage_gözat">#000000</color>
+    <color name="forthpage_background">#F5F5F5</color>
+    <color name="siyahkreasyonu">#141414</color>
+    <color name="markaadı">#141414</color>
+    <color name="ürünmodelivetipi">#141414</color>
+    <color name="incele">#FFFFFF</color>
+    <color name="tamamlandı">#44920B</color>
+
+</resources>
